@@ -1,0 +1,5 @@
+mysql port no : 3306
+
+username : admin
+Mysql root password :  12345
+windows service name : MYSQL80

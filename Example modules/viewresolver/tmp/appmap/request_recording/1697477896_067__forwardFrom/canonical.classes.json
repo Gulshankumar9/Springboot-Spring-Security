@@ -1,0 +1,6 @@
+[
+  "com/custom/viewresolver/Controller/ForwardRedirectController",
+  "com/custom/viewresolver/customException/CustomExceptionHandler",
+  "com/custom/viewresolver/interceptor/InterceptorHandler",
+  "com/custom/viewresolver/views/Viewresolverimpl"
+]

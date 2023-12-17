@@ -1,0 +1,1122 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "Idea-2f9aebdf=60a22c89-f9e6-4e36-914b-0f8015b80680",
+          "sec-fetch-user": "?1",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-ch-ua": "\"Microsoft Edge\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "upgrade-insecure-requests": "1",
+          "connection": "keep-alive",
+          "cache-control": "max-age=0",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60",
+          "sec-fetch-dest": "document"
+        },
+        "path_info": "/forwardFrom",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 1,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 2,
+      "lineno": 22,
+      "method_id": "preHandle",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 886820999,
+          "value": "org.apache.catalina.connector.RequestFacade@34dbd087"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 536507237,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 354231213,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@151d23ad"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00620006,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 183764573,
+        "value": "true"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.Controller.ForwardRedirectController",
+      "event": "call",
+      "id": 4,
+      "lineno": 13,
+      "method_id": "forwardFrom",
+      "parameters": [
+        {
+          "class": "org.springframework.web.servlet.ModelAndView",
+          "kind": "req",
+          "name": "modelAndView",
+          "object_id": 927443498,
+          "value": "ModelAndView [view=\"forward\"; model=null]"
+        }
+      ],
+      "path": "com/custom/viewresolver/Controller/ForwardRedirectController.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.Controller.ForwardRedirectController",
+        "object_id": 2009565840,
+        "value": "com.custom.viewresolver.Controller.ForwardRedirectController@77c78a90"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009969,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "org.springframework.web.servlet.ModelAndView",
+        "object_id": 927443498,
+        "value": "ModelAndView [view=\"forward\"; model={}]"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 6,
+      "lineno": 44,
+      "method_id": "postHandle",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 886820999,
+          "value": "org.apache.catalina.connector.RequestFacade@34dbd087"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 536507237,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        },
+        {
+          "class": "org.springframework.web.servlet.ModelAndView",
+          "kind": "req",
+          "name": "modelAndView",
+          "object_id": 137090091,
+          "value": "ModelAndView [view=\"forward\"; model={modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]"
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 354231213,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@151d23ad"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009999,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "com.custom.viewresolver.customException.CustomException",
+          "lineno": 63,
+          "object_id": 868311318,
+          "path": "InterceptorHandler.java"
+        }
+      ],
+      "id": 7,
+      "parent_id": 6,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.customException.CustomExceptionHandler",
+      "event": "call",
+      "id": 8,
+      "lineno": 13,
+      "method_id": "handleCustomException",
+      "parameters": [
+        {
+          "class": "com.custom.viewresolver.customException.CustomException",
+          "kind": "req",
+          "name": "ex",
+          "object_id": 868311318,
+          "value": "com.custom.viewresolver.customException.CustomException"
+        }
+      ],
+      "path": "com/custom/viewresolver/customException/CustomExceptionHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.customException.CustomExceptionHandler",
+        "object_id": 331275440,
+        "value": "com.custom.viewresolver.customException.CustomExceptionHandler@13bedcb0"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00049863,
+      "event": "return",
+      "id": 9,
+      "parent_id": 8,
+      "return_value": {
+        "class": "org.springframework.web.servlet.ModelAndView",
+        "object_id": 137090091,
+        "value": "ModelAndView [view=\"errorView1\"; model={modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle}]"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.Viewresolverimpl",
+      "event": "call",
+      "id": 10,
+      "lineno": 30,
+      "method_id": "resolveViewName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "viewName",
+          "object_id": 254794463,
+          "value": "errorView1"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/Viewresolverimpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.Viewresolverimpl",
+        "object_id": 708087041,
+        "value": "com.custom.viewresolver.views.Viewresolverimpl@2a348d01"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.Viewresolverimpl",
+      "event": "call",
+      "id": 11,
+      "lineno": 18,
+      "method_id": "createView",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "viewName",
+          "object_id": 254794463,
+          "value": "errorView1"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/Viewresolverimpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.Viewresolverimpl",
+        "object_id": 708087041,
+        "value": "com.custom.viewresolver.views.Viewresolverimpl@2a348d01"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009792,
+      "event": "return",
+      "id": 12,
+      "parent_id": 11,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009792,
+      "event": "return",
+      "id": 13,
+      "parent_id": 10,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 14,
+      "lineno": 59,
+      "method_id": "getTemplate",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1864504514,
+          "value": "errorView1.ftl"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 332222134,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'errorView1'; URL [errorView1.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0095994,
+      "event": "return",
+      "id": 15,
+      "parent_id": 14,
+      "return_value": {
+        "class": "freemarker.template.Template",
+        "object_id": 930530139,
+        "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 16,
+      "lineno": 24,
+      "method_id": "exposeHelpers",
+      "parameters": [
+        {
+          "class": "java.util.LinkedHashMap",
+          "kind": "req",
+          "name": "model",
+          "object_id": 678767636,
+          "value": "{modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051, message=}"
+        },
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 886820999,
+          "value": "org.apache.catalina.connector.RequestFacade@34dbd087"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 332222134,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'errorView1'; URL [errorView1.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00019965,
+      "event": "return",
+      "id": 17,
+      "parent_id": 16,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 18,
+      "lineno": 33,
+      "method_id": "buildTemplateModel",
+      "parameters": [
+        {
+          "class": "java.util.LinkedHashMap",
+          "kind": "req",
+          "name": "model",
+          "object_id": 678767636,
+          "value": "{modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051, message=}"
+        },
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 886820999,
+          "value": "org.apache.catalina.connector.RequestFacade@34dbd087"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 332222134,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'errorView1'; URL [errorView1.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00160044,
+      "event": "return",
+      "id": 19,
+      "parent_id": 18,
+      "return_value": {
+        "class": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$RequestHashModel",
+        "object_id": 1609749525,
+        "value": "{CustomJavaClass=com.custom.viewresolver.Customfreemarker.CustomJavaClass@170b7aee, model={modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051, message=}, modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, message=, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051}"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 20,
+      "lineno": 59,
+      "method_id": "getTemplate",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1864504514,
+          "value": "errorView1.ftl"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 332222134,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'errorView1'; URL [errorView1.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 21,
+      "parent_id": 20,
+      "return_value": {
+        "class": "freemarker.template.Template",
+        "object_id": 930530139,
+        "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 22,
+      "lineno": 43,
+      "method_id": "processTemplate",
+      "parameters": [
+        {
+          "class": "freemarker.template.Template",
+          "kind": "req",
+          "name": "template",
+          "object_id": 930530139,
+          "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+        },
+        {
+          "class": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$RequestHashModel",
+          "kind": "req",
+          "name": "model",
+          "object_id": 1609749525,
+          "value": "{CustomJavaClass=com.custom.viewresolver.Customfreemarker.CustomJavaClass@170b7aee, model={modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051, message=}, modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, error=Exception raised in postHandle, message=, springMacroRequestContext=org.springframework.web.servlet.support.RequestContext@5bb3051}"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 332222134,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'errorView1'; URL [errorView1.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00319988,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "freemarker.core.InvalidReferenceException",
+          "lineno": 134,
+          "message": "The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 1872092880,
+          "path": "InvalidReferenceException.java"
+        }
+      ],
+      "id": 23,
+      "parent_id": 22,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 24,
+      "lineno": 71,
+      "method_id": "afterCompletion",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 886820999,
+          "value": "org.apache.catalina.connector.RequestFacade@34dbd087"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 536507237,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        },
+        {
+          "class": "freemarker.core.InvalidReferenceException",
+          "kind": "req",
+          "name": "ex",
+          "object_id": 1872092880,
+          "value": "freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----"
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 354231213,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@151d23ad"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 25,
+      "parent_id": 24,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.02890112,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "jakarta.servlet.ServletException",
+          "lineno": 1019,
+          "message": "Request processing failed: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 1835894712,
+          "path": "FrameworkServlet.java"
+        },
+        {
+          "class": "freemarker.core.InvalidReferenceException",
+          "lineno": 134,
+          "message": "The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 1872092880,
+          "path": "InvalidReferenceException.java"
+        }
+      ],
+      "id": 26,
+      "parent_id": 1,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "Idea-2f9aebdf=60a22c89-f9e6-4e36-914b-0f8015b80680",
+          "sec-fetch-user": "?1",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-ch-ua": "\"Microsoft Edge\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "upgrade-insecure-requests": "1",
+          "connection": "keep-alive",
+          "cache-control": "max-age=0",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60",
+          "sec-fetch-dest": "document"
+        },
+        "path_info": "/error",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 27,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.Viewresolverimpl",
+      "event": "call",
+      "id": 28,
+      "lineno": 30,
+      "method_id": "resolveViewName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "viewName",
+          "object_id": 1355704985,
+          "value": "error"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/Viewresolverimpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.Viewresolverimpl",
+        "object_id": 708087041,
+        "value": "com.custom.viewresolver.views.Viewresolverimpl@2a348d01"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.Viewresolverimpl",
+      "event": "call",
+      "id": 29,
+      "lineno": 18,
+      "method_id": "createView",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "viewName",
+          "object_id": 1355704985,
+          "value": "error"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/Viewresolverimpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.Viewresolverimpl",
+        "object_id": 708087041,
+        "value": "com.custom.viewresolver.views.Viewresolverimpl@2a348d01"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 30,
+      "parent_id": 29,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00009692,
+      "event": "return",
+      "id": 31,
+      "parent_id": 28,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 32,
+      "lineno": 59,
+      "method_id": "getTemplate",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1389910183,
+          "value": "error.ftl"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 16246067,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'error'; URL [error.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 33,
+      "parent_id": 32,
+      "return_value": {
+        "class": "freemarker.template.Template",
+        "object_id": 930530139,
+        "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 34,
+      "lineno": 24,
+      "method_id": "exposeHelpers",
+      "parameters": [
+        {
+          "class": "java.util.LinkedHashMap",
+          "kind": "req",
+          "name": "model",
+          "object_id": 2022740647,
+          "value": "{timestamp=Sun Oct 15 17:21:41 IST 2023, status=500, error=Internal Server Error, trace=com.custom.viewresolver.customException.CustomException\r\n\tat com.custom.viewresolver.interceptor.InterceptorHandler.postHandle(InterceptorHandler.java:63)\r\n\tat org.springframework.web.servlet.HandlerExecutionChain.applyPostHandle(HandlerExecutionChain.java:163)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Appl..."
+        },
+        {
+          "class": "org.apache.catalina.core.ApplicationHttpRequest",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1537848718,
+          "value": "org.apache.catalina.core.ApplicationHttpRequest@5ba9b58e"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 16246067,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'error'; URL [error.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 35,
+      "parent_id": 34,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 36,
+      "lineno": 33,
+      "method_id": "buildTemplateModel",
+      "parameters": [
+        {
+          "class": "java.util.LinkedHashMap",
+          "kind": "req",
+          "name": "model",
+          "object_id": 2022740647,
+          "value": "{timestamp=Sun Oct 15 17:21:41 IST 2023, status=500, error=Internal Server Error, trace=com.custom.viewresolver.customException.CustomException\r\n\tat com.custom.viewresolver.interceptor.InterceptorHandler.postHandle(InterceptorHandler.java:63)\r\n\tat org.springframework.web.servlet.HandlerExecutionChain.applyPostHandle(HandlerExecutionChain.java:163)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Appl..."
+        },
+        {
+          "class": "org.apache.catalina.core.ApplicationHttpRequest",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1537848718,
+          "value": "org.apache.catalina.core.ApplicationHttpRequest@5ba9b58e"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 16246067,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'error'; URL [error.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 37,
+      "parent_id": 36,
+      "return_value": {
+        "class": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$RequestHashModel",
+        "object_id": 1959094534,
+        "value": "{CustomJavaClass=com.custom.viewresolver.Customfreemarker.CustomJavaClass@8bcd893, path=/forwardFrom, trace=com.custom.viewresolver.customException.CustomException\r\n\tat com.custom.viewresolver.interceptor.InterceptorHandler.postHandle(InterceptorHandler.java:63)\r\n\tat org.springframework.web.servlet.HandlerExecutionChain.applyPostHandle(HandlerExecutionChain.java:163)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.i..."
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 38,
+      "lineno": 59,
+      "method_id": "getTemplate",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1389910183,
+          "value": "error.ftl"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 40864710,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 16246067,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'error'; URL [error.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 39,
+      "parent_id": 38,
+      "return_value": {
+        "class": "freemarker.template.Template",
+        "object_id": 930530139,
+        "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+      "event": "call",
+      "id": 40,
+      "lineno": 43,
+      "method_id": "processTemplate",
+      "parameters": [
+        {
+          "class": "freemarker.template.Template",
+          "kind": "req",
+          "name": "template",
+          "object_id": 930530139,
+          "value": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Custom FTL Page</title>\r\n</head>\r\n<body>\r\n<h1>welcome to FTL page</h1>\r\n\r\n<h2>Forward : Query Param</h2>\r\n<h3>Parameter 1 : ${queryParam1}</h3>\r\n<h3>Parameter 2 : ${queryParam2}</h3>\r\n\r\n<#--\r\n<h2>Redirect : Query Param</h2>\r\n<h3>Parameter 1 : ${qParam1}</h3>\r\n<h3>Parameter 2 : ${qParam2}</h3>\r\n--><h3>${error}</h3>\r\n\r\n<h3>model object : ${model.queryParam1}</h3>\r\n<h3>model object : ${model.queryParam2}</h3>\r\n<h3>${CustomJavaClass.get()}</h3>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>"
+        },
+        {
+          "class": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$RequestHashModel",
+          "kind": "req",
+          "name": "model",
+          "object_id": 1959094534,
+          "value": "{CustomJavaClass=com.custom.viewresolver.Customfreemarker.CustomJavaClass@8bcd893, path=/forwardFrom, trace=com.custom.viewresolver.customException.CustomException\r\n\tat com.custom.viewresolver.interceptor.InterceptorHandler.postHandle(InterceptorHandler.java:63)\r\n\tat org.springframework.web.servlet.HandlerExecutionChain.applyPostHandle(HandlerExecutionChain.java:163)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.i..."
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 124851767,
+          "value": "org.apache.catalina.connector.ResponseFacade@7711637"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/FreeMarkerViewImpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.FreeMarkerViewImpl",
+        "object_id": 16246067,
+        "value": "com.custom.viewresolver.views.FreeMarkerViewImpl: name 'error'; URL [error.ftl]"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00020011,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "freemarker.core.InvalidReferenceException",
+          "lineno": 134,
+          "message": "The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 514787791,
+          "path": "InvalidReferenceException.java"
+        }
+      ],
+      "id": 41,
+      "parent_id": 40,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00440015,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "jakarta.servlet.ServletException",
+          "lineno": 1019,
+          "message": "Request processing failed: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 1937736709,
+          "path": "FrameworkServlet.java"
+        },
+        {
+          "class": "freemarker.core.InvalidReferenceException",
+          "lineno": 134,
+          "message": "The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+          "object_id": 514787791,
+          "path": "InvalidReferenceException.java"
+        }
+      ],
+      "id": 42,
+      "parent_id": 27,
+      "thread_id": 32
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /forwardFrom (UNKNOWN) - 17:21:41.023",
+    "app": "viewresolver",
+    "language": {
+      "name": "java",
+      "version": "17.0.8+9-LTS-211",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {},
+    "framework": {}
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "preHandle",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:22"
+                        },
+                        {
+                          "name": "afterCompletion",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:71"
+                        },
+                        {
+                          "name": "postHandle",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:44"
+                        }
+                      ],
+                      "name": "InterceptorHandler",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "interceptor",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "createView",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/Viewresolverimpl.java:18"
+                        },
+                        {
+                          "name": "resolveViewName",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/Viewresolverimpl.java:30"
+                        }
+                      ],
+                      "name": "Viewresolverimpl",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "buildTemplateModel",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:33"
+                        },
+                        {
+                          "name": "exposeHelpers",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:24"
+                        },
+                        {
+                          "name": "getTemplate",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:59"
+                        },
+                        {
+                          "name": "processTemplate",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:43"
+                        }
+                      ],
+                      "name": "FreeMarkerViewImpl",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "views",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "handleCustomException",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/customException/CustomExceptionHandler.java:13"
+                        }
+                      ],
+                      "name": "CustomExceptionHandler",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "customException",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "forwardFrom",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:13"
+                        }
+                      ],
+                      "name": "ForwardRedirectController",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "Controller",
+                  "type": "package"
+                }
+              ],
+              "name": "viewresolver",
+              "type": "package"
+            }
+          ],
+          "name": "custom",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /forwardFrom"
+        },
+        {
+          "type": "route",
+          "name": "GET /error"
+        }
+      ]
+    }
+  ]
+}

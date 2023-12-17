@@ -1,0 +1,9 @@
+[
+  "com/custom/viewresolver/Controller/ForwardRedirectController",
+  "com/custom/viewresolver/Customfreemarker/CustomJavaClass",
+  "com/custom/viewresolver/customException/CustomExceptionHandler",
+  "com/custom/viewresolver/interceptor/InterceptorHandler",
+  "com/custom/viewresolver/views/ForwardViewImpl",
+  "com/custom/viewresolver/views/FreeMarkerViewImpl",
+  "com/custom/viewresolver/views/Viewresolverimpl"
+]

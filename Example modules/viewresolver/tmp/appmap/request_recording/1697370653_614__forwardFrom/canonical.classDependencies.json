@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /**",
+    "callee": "com/custom"
+  },
+  {
+    "caller": "GET /error",
+    "callee": "com/custom"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "preHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:22"
+                      },
+                      {
+                        "name": "afterCompletion",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:71"
+                      },
+                      {
+                        "name": "postHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:44"
+                      }
+                    ],
+                    "name": "InterceptorHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "interceptor",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "createView",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/Viewresolverimpl.java:18"
+                      },
+                      {
+                        "name": "resolveViewName",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/Viewresolverimpl.java:30"
+                      }
+                    ],
+                    "name": "Viewresolverimpl",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "buildTemplateModel",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:33"
+                      },
+                      {
+                        "name": "exposeHelpers",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:24"
+                      },
+                      {
+                        "name": "getTemplate",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:59"
+                      },
+                      {
+                        "name": "processTemplate",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:43"
+                      }
+                    ],
+                    "name": "FreeMarkerViewImpl",
+                    "type": "class"
+                  }
+                ],
+                "name": "views",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "handleCustomException",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/customException/CustomExceptionHandler.java:13"
+                      }
+                    ],
+                    "name": "CustomExceptionHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "customException",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "forwardFrom",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:13"
+                      }
+                    ],
+                    "name": "ForwardRedirectController",
+                    "type": "class"
+                  }
+                ],
+                "name": "Controller",
+                "type": "package"
+              }
+            ],
+            "name": "viewresolver",
+            "type": "package"
+          }
+        ],
+        "name": "custom",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /forwardFrom"
+      },
+      {
+        "type": "route",
+        "name": "GET /error"
+      }
+    ]
+  }
+]

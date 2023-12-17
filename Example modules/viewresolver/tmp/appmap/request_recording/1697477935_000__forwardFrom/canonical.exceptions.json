@@ -1,0 +1,10 @@
+[
+  {
+    "class": "com.custom.viewresolver.customException.CustomException",
+    "stack": [
+      "InterceptorHandler.java:65",
+      "com/custom/viewresolver/interceptor/InterceptorHandler.java:47"
+    ],
+    "location": "InterceptorHandler.java:65"
+  }
+]

@@ -1,0 +1,507 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "Idea-2f9aebdf=60a22c89-f9e6-4e36-914b-0f8015b80680; JSESSIONID=50B6FCD68B1B53B427CCCF404E929ECE",
+          "sec-fetch-user": "?1",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-ch-ua": "\"Chromium\";v=\"118\", \"Microsoft Edge\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "upgrade-insecure-requests": "1",
+          "connection": "keep-alive",
+          "cache-control": "max-age=0",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+          "sec-fetch-dest": "document"
+        },
+        "normalized_path_info": "/forwardFrom",
+        "path_info": "/forwardFrom",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 1,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 2,
+      "lineno": 23,
+      "method_id": "preHandle",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1927064740,
+          "value": "org.apache.catalina.connector.RequestFacade@72dcaca4"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 1256524144,
+          "value": "org.apache.catalina.connector.ResponseFacade@4ae50970"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 99304992,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 1286205092,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@4ca9eea4"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00632928,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 1039922011,
+        "value": "true"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.Controller.ForwardRedirectController",
+      "event": "call",
+      "id": 4,
+      "lineno": 13,
+      "method_id": "forwardFrom",
+      "parameters": [
+        {
+          "class": "org.springframework.web.servlet.ModelAndView",
+          "kind": "req",
+          "name": "modelAndView",
+          "object_id": 1840985542,
+          "value": "ModelAndView [view=\"forward\"; model=null]"
+        }
+      ],
+      "path": "com/custom/viewresolver/Controller/ForwardRedirectController.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.Controller.ForwardRedirectController",
+        "object_id": 1801757537,
+        "value": "com.custom.viewresolver.Controller.ForwardRedirectController@6b64a361"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010031,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "org.springframework.web.servlet.ModelAndView",
+        "object_id": 1840985542,
+        "value": "ModelAndView [view=\"forward\"; model={}]"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 6,
+      "lineno": 47,
+      "method_id": "postHandle",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1927064740,
+          "value": "org.apache.catalina.connector.RequestFacade@72dcaca4"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 1256524144,
+          "value": "org.apache.catalina.connector.ResponseFacade@4ae50970"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 99304992,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        },
+        {
+          "class": "org.springframework.web.servlet.ModelAndView",
+          "kind": "req",
+          "name": "modelAndView",
+          "object_id": 904639698,
+          "value": "ModelAndView [view=\"forward\"; model={modelAndView=ModelAndView [view=\"forward\"; model={}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]"
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 1286205092,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@4ca9eea4"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "com.custom.viewresolver.customException.ViewException",
+          "lineno": 69,
+          "object_id": 1203347691,
+          "path": "InterceptorHandler.java"
+        }
+      ],
+      "id": 7,
+      "parent_id": 6,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.customException.CustomExceptionHandler",
+      "event": "call",
+      "id": 8,
+      "lineno": 42,
+      "method_id": "viewExceptionHandler",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1927064740,
+          "value": "org.apache.catalina.connector.RequestFacade@72dcaca4"
+        },
+        {
+          "class": "com.custom.viewresolver.customException.ViewException",
+          "kind": "req",
+          "name": "exception",
+          "object_id": 1203347691,
+          "value": "com.custom.viewresolver.customException.ViewException"
+        }
+      ],
+      "path": "com/custom/viewresolver/customException/CustomExceptionHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.customException.CustomExceptionHandler",
+        "object_id": 327115475,
+        "value": "com.custom.viewresolver.customException.CustomExceptionHandler@137f62d3"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00050035,
+      "event": "return",
+      "id": 9,
+      "parent_id": 8,
+      "return_value": {
+        "class": "org.springframework.web.servlet.ModelAndView",
+        "object_id": 1000002918,
+        "value": "ModelAndView [view=[null]; model={url=/forwardFrom}]"
+      },
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+      "event": "call",
+      "id": 10,
+      "lineno": 77,
+      "method_id": "afterCompletion",
+      "parameters": [
+        {
+          "class": "org.apache.catalina.connector.RequestFacade",
+          "kind": "req",
+          "name": "request",
+          "object_id": 1927064740,
+          "value": "org.apache.catalina.connector.RequestFacade@72dcaca4"
+        },
+        {
+          "class": "org.apache.catalina.connector.ResponseFacade",
+          "kind": "req",
+          "name": "response",
+          "object_id": 1256524144,
+          "value": "org.apache.catalina.connector.ResponseFacade@4ae50970"
+        },
+        {
+          "class": "org.springframework.web.method.HandlerMethod",
+          "kind": "req",
+          "name": "handler",
+          "object_id": 99304992,
+          "value": "com.custom.viewresolver.Controller.ForwardRedirectController#forwardFrom(ModelAndView)"
+        },
+        {
+          "class": "java.lang.Exception",
+          "kind": "req",
+          "name": "ex",
+          "object_id": 0
+        }
+      ],
+      "path": "com/custom/viewresolver/interceptor/InterceptorHandler.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.interceptor.InterceptorHandler",
+        "object_id": 1286205092,
+        "value": "com.custom.viewresolver.interceptor.InterceptorHandler@4ca9eea4"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 11,
+      "parent_id": 10,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.0126296,
+      "event": "return",
+      "http_server_response": {
+        "headers": {},
+        "status": 500
+      },
+      "id": 12,
+      "parent_id": 1,
+      "thread_id": 32
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "Idea-2f9aebdf=60a22c89-f9e6-4e36-914b-0f8015b80680; JSESSIONID=50B6FCD68B1B53B427CCCF404E929ECE",
+          "sec-fetch-user": "?1",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-ch-ua": "\"Chromium\";v=\"118\", \"Microsoft Edge\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "upgrade-insecure-requests": "1",
+          "connection": "keep-alive",
+          "cache-control": "max-age=0",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+          "sec-fetch-dest": "document"
+        },
+        "normalized_path_info": "/error",
+        "path_info": "/error",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 13,
+      "thread_id": 32
+    },
+    {
+      "defined_class": "com.custom.viewresolver.views.Viewresolverimpl",
+      "event": "call",
+      "id": 14,
+      "lineno": 31,
+      "method_id": "resolveViewName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "viewName",
+          "object_id": 1367466267,
+          "value": "error"
+        },
+        {
+          "class": "java.util.Locale",
+          "kind": "req",
+          "name": "locale",
+          "object_id": 1432488459,
+          "value": "en_US"
+        }
+      ],
+      "path": "com/custom/viewresolver/views/Viewresolverimpl.java",
+      "receiver": {
+        "class": "com.custom.viewresolver.views.Viewresolverimpl",
+        "object_id": 188635631,
+        "value": "com.custom.viewresolver.views.Viewresolverimpl@b3e59ef"
+      },
+      "static": false,
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.00010163,
+      "event": "return",
+      "id": 15,
+      "parent_id": 14,
+      "return_value": {
+        "class": "org.springframework.web.servlet.view.JstlView",
+        "object_id": 421060131,
+        "value": "org.springframework.web.servlet.view.JstlView: [JstlView]; URL [/WEB-INF/views/error.jsp]"
+      },
+      "thread_id": 32
+    },
+    {
+      "elapsed": 0.08899988,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Set-Cookie": "JSESSIONID=26794782EF2E77A3249FE3750DAB0B24; Path=/; HttpOnly"
+        },
+        "status": 500
+      },
+      "id": 16,
+      "parent_id": 13,
+      "thread_id": 32
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /forwardFrom (500) - 23:08:16.067",
+    "app": "viewresolver",
+    "language": {
+      "name": "java",
+      "version": "17.0.8+9-LTS-211",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {},
+    "framework": {}
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "viewExceptionHandler",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/customException/CustomExceptionHandler.java:42"
+                        }
+                      ],
+                      "name": "CustomExceptionHandler",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "customException",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "resolveViewName",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/views/Viewresolverimpl.java:31"
+                        }
+                      ],
+                      "name": "Viewresolverimpl",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "views",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "postHandle",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:47"
+                        },
+                        {
+                          "name": "afterCompletion",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:77"
+                        },
+                        {
+                          "name": "preHandle",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:23"
+                        }
+                      ],
+                      "name": "InterceptorHandler",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "interceptor",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "forwardFrom",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:13"
+                        }
+                      ],
+                      "name": "ForwardRedirectController",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "Controller",
+                  "type": "package"
+                }
+              ],
+              "name": "viewresolver",
+              "type": "package"
+            }
+          ],
+          "name": "custom",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /forwardFrom"
+        },
+        {
+          "type": "route",
+          "name": "GET /error"
+        }
+      ]
+    }
+  ]
+}

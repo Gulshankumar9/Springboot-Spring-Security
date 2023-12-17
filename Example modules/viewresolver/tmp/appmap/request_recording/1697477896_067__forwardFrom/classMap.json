@@ -1,0 +1,118 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "viewExceptionHandler",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/customException/CustomExceptionHandler.java:42"
+                      }
+                    ],
+                    "name": "CustomExceptionHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "customException",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "resolveViewName",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/Viewresolverimpl.java:31"
+                      }
+                    ],
+                    "name": "Viewresolverimpl",
+                    "type": "class"
+                  }
+                ],
+                "name": "views",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "postHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:47"
+                      },
+                      {
+                        "name": "afterCompletion",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:77"
+                      },
+                      {
+                        "name": "preHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:23"
+                      }
+                    ],
+                    "name": "InterceptorHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "interceptor",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "forwardFrom",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:13"
+                      }
+                    ],
+                    "name": "ForwardRedirectController",
+                    "type": "class"
+                  }
+                ],
+                "name": "Controller",
+                "type": "package"
+              }
+            ],
+            "name": "viewresolver",
+            "type": "package"
+          }
+        ],
+        "name": "custom",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /forwardFrom"
+      },
+      {
+        "type": "route",
+        "name": "GET /error"
+      }
+    ]
+  }
+]

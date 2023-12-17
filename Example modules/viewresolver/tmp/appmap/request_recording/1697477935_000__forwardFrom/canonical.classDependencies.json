@@ -1,0 +1,6 @@
+[
+  {
+    "caller": "GET /forwardTo",
+    "callee": "com/custom"
+  }
+]

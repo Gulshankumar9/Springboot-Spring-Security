@@ -1,0 +1,180 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "getTemplate",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:58"
+                      },
+                      {
+                        "name": "exposeHelpers",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:23"
+                      },
+                      {
+                        "name": "buildTemplateModel",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:32"
+                      },
+                      {
+                        "name": "processTemplate",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/FreeMarkerViewImpl.java:42"
+                      }
+                    ],
+                    "name": "FreeMarkerViewImpl",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "resolveViewName",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/Viewresolverimpl.java:31"
+                      }
+                    ],
+                    "name": "Viewresolverimpl",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "renderMergedOutputModel",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/views/ForwardViewImpl.java:14"
+                      }
+                    ],
+                    "name": "ForwardViewImpl",
+                    "type": "class"
+                  }
+                ],
+                "name": "views",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "postHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:47"
+                      },
+                      {
+                        "name": "afterCompletion",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:77"
+                      },
+                      {
+                        "name": "preHandle",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/interceptor/InterceptorHandler.java:23"
+                      }
+                    ],
+                    "name": "InterceptorHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "interceptor",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "get",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/Customfreemarker/CustomJavaClass.java:7"
+                      }
+                    ],
+                    "name": "CustomJavaClass",
+                    "type": "class"
+                  }
+                ],
+                "name": "Customfreemarker",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "handleCustomException",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/customException/CustomExceptionHandler.java:16"
+                      }
+                    ],
+                    "name": "CustomExceptionHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "customException",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "forwardTo",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:21"
+                      },
+                      {
+                        "name": "forwardFrom",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/custom/viewresolver/Controller/ForwardRedirectController.java:13"
+                      }
+                    ],
+                    "name": "ForwardRedirectController",
+                    "type": "class"
+                  }
+                ],
+                "name": "Controller",
+                "type": "package"
+              }
+            ],
+            "name": "viewresolver",
+            "type": "package"
+          }
+        ],
+        "name": "custom",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /forwardTo"
+      }
+    ]
+  }
+]

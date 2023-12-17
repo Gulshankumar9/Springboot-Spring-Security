@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /error",
+    "callee": "com/custom"
+  },
+  {
+    "caller": "GET /forwardFrom",
+    "callee": "com/custom"
+  }
+]

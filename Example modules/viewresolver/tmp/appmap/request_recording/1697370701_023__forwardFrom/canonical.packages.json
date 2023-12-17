@@ -1,0 +1,6 @@
+[
+  "com/custom/viewresolver/Controller",
+  "com/custom/viewresolver/customException",
+  "com/custom/viewresolver/interceptor",
+  "com/custom/viewresolver/views"
+]

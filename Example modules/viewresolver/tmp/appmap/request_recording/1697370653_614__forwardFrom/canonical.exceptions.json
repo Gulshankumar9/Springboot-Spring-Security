@@ -1,0 +1,19 @@
+[
+  {
+    "class": "com.custom.viewresolver.customException.CustomException",
+    "stack": [
+      "InterceptorHandler.java:63",
+      "com/custom/viewresolver/interceptor/InterceptorHandler.java:44"
+    ],
+    "location": "InterceptorHandler.java:63"
+  },
+  {
+    "class": "freemarker.template.TemplateNotFoundException",
+    "message": "Template not found for name \"welcome.ftl\".\nThe name was interpreted by this TemplateLoader: MultiTemplateLoader(loader1 = FileTemplateLoader(baseDir=\"C:\\Users\\Gulshan\\Desktop\\work\\springsecurity6-main\\springsecurity6-main\\Example modules\\viewresolver\\src\\main\\webapp\\WEB-INF\\ftl\", canonicalBasePath=\"C:\\Users\\Gulshan\\Desktop\\work\\springsecurity6-main\\springsecurity6-main\\Example modules\\viewresolver\\src\\main\\webapp\\WEB-INF\\ftl\\\"), loader2 = ClassTemplateLoader(resourceLoaderClass=org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer, basePackagePath=\"\" /* relatively to resourceLoaderClass pkg */)).",
+    "stack": [
+      "Configuration.java:2957",
+      "com/custom/viewresolver/views/FreeMarkerViewImpl.java:59"
+    ],
+    "location": "Configuration.java:2957"
+  }
+]

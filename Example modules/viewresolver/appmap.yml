@@ -1,0 +1,5 @@
+name: "viewresolver"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.custom.viewresolver"
+- path: "templates"

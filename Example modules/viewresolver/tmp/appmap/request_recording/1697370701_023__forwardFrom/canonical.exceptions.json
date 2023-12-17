@@ -1,0 +1,19 @@
+[
+  {
+    "class": "com.custom.viewresolver.customException.CustomException",
+    "stack": [
+      "InterceptorHandler.java:63",
+      "com/custom/viewresolver/interceptor/InterceptorHandler.java:44"
+    ],
+    "location": "InterceptorHandler.java:63"
+  },
+  {
+    "class": "freemarker.core.InvalidReferenceException",
+    "message": "The following has evaluated to null or missing:\n==> queryParam1  [in template \"welcome.ftl\" at line 10, column 21]\n\n----\nTip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??\n----\n\n----\nFTL stack trace (\"~\" means nesting-related):\n\t- Failed at: ${queryParam1}  [in template \"welcome.ftl\" at line 10, column 19]\n----",
+    "stack": [
+      "InvalidReferenceException.java:134",
+      "com/custom/viewresolver/views/FreeMarkerViewImpl.java:43"
+    ],
+    "location": "InvalidReferenceException.java:134"
+  }
+]
